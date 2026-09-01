@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explora los cinco elementos que crean condiciones para el aprendizaje en el aula.">
+  <title>El aula en acción</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--
+  THESIS: El aula es un sistema de decisiones conectadas, no cinco conceptos aislados ni una cuadrícula de tarjetas.
+  OWN-WORLD: Azul tinta, papel frío y cinco tintas funcionales; plano de aula, rutas dibujadas y controles de mesa pedagógica.
+  STORY: La persona entra, activa cinco zonas, toma microdecisiones y reconoce que su rol articula el sistema.
+  FIRST VIEWPORT: Una frase de entrada ocupa la izquierda; a la derecha, cinco líneas convergen en una mesa de aula y el acceso queda anclado abajo.
+  FORM: Mesa pedagógica, séptima dirección derivada; seed 057756f7.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+  -->
+  <main class="intro" id="intro" aria-labelledby="intro-title">
+    <div class="intro__brand"><img src="docs/excolombia.png" alt="Enseña por Colombia"></div>
+    <div class="intro__copy">
+      <h1 id="intro-title">El aula no se controla.<br><span>Se diseña.</span></h1>
+      <p>Gestionar el aula es crear, de manera sistemática e intencionada, las condiciones para que todas y todos aprendan de forma segura, autónoma y con sentido.</p>
+      <button class="primary-button" id="enter-button">
+        Entrar al aula
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+    <div class="intro__system" aria-hidden="true">
+      <svg viewBox="0 0 520 520">
+        <path class="intro-line l1" d="M58 68 C220 68 175 244 260 260"/>
+        <path class="intro-line l2" d="M462 68 C300 68 345 244 260 260"/>
+        <path class="intro-line l3" d="M58 452 C220 452 175 276 260 260"/>
+        <path class="intro-line l4" d="M462 452 C300 452 345 276 260 260"/>
+        <path class="intro-line l5" d="M260 38 L260 214"/>
+        <circle cx="58" cy="68" r="17"/><circle cx="462" cy="68" r="17"/>
+        <circle cx="58" cy="452" r="17"/><circle cx="462" cy="452" r="17"/>
+        <circle cx="260" cy="38" r="17"/>
+        <rect x="214" y="214" width="92" height="92" rx="22"/>
+        <path class="center-mark" d="M238 260h44M260 238v44"/>
+      </svg>
+    </div>
+    <p class="intro__hint">Cinco decisiones. Un mismo propósito.</p>
+  </main>
+
+  <main class="app" id="app" hidden>
+    <header class="topbar">
+      <a class="brand" href="#mapa" aria-label="Volver al mapa del aula"><img src="docs/excolombia.png" alt="Enseña por Colombia"></a>
+      <div class="progress" aria-live="polite">
+        <span class="progress__text"><strong id="progress-count">0</strong> de 5 explorados</span>
+        <span class="progress__track"><span id="progress-bar"></span></span>
+      </div>
+      <button class="help-button" id="help-button" aria-expanded="false" aria-controls="help-tip">
+        <span>?</span> Cómo explorar
+      </button>
+      <div class="help-tip" id="help-tip" hidden>Selecciona cualquier punto del aula. Puedes recorrerlos en el orden que prefieras.</div>
+    </header>
+
+    <section class="workspace" id="mapa" tabindex="-1" aria-label="Mapa interactivo del aula">
+      <div class="map-head">
+        <h2>Todo en el aula<br>está conectado.</h2>
+        <p>Activa cada elemento y descubre qué decisión pedagógica pone en movimiento.</p>
+      </div>
+
+      <div class="classroom" id="classroom">
+        <div class="room-label">AULA INTERACTIVA · VISTA SUPERIOR</div>
+        <svg class="routes" viewBox="0 0 1000 680" preserveAspectRatio="none" aria-hidden="true">
+          <path data-route="space" d="M115 258 C250 330 325 500 455 582"/>
+          <path data-route="time" d="M278 74 C334 235 392 430 470 580"/>
+          <path data-route="subject" d="M565 76 C560 250 535 430 510 580"/>
+          <path data-route="students" d="M835 530 C700 535 620 560 545 588"/>
+          <path data-route="eco" d="M520 372 C520 460 518 520 515 578"/>
+        </svg>
+
+        <button class="hotspot hotspot--space" data-element="space" style="--accent:#e85d3f" aria-label="Explorar el espacio">
+          <span class="hotspot__index">01</span><span class="hotspot__label">Espacio</span><span class="hotspot__pulse"></span>
+        </button>
+        <button class="hotspot hotspot--time" data-element="time" style="--accent:#f2b134" aria-label="Explorar el tiempo">
+          <span class="hotspot__index">02</span><span class="hotspot__label">Tiempo</span><span class="hotspot__pulse"></span>
+        </button>
+        <button class="hotspot hotspot--subject" data-element="subject" style="--accent:#5c67d8" aria-label="Explorar el área enseñada">
+          <span class="hotspot__index">03</span><span class="hotspot__label">Área enseñada</span><span class="hotspot__pulse"></span>
+        </button>
+        <button class="hotspot hotspot--students" data-element="students" style="--accent:#20a680" aria-label="Explorar estudiantes">
+          <span class="hotspot__index">04</span><span class="hotspot__label">Estudiantes</span><span class="hotspot__pulse"></span>
+        </button>
+        <button class="hotspot hotspot--eco" data-element="eco" style="--accent:#1976b9" aria-label="Explorar el rol de Eco">
+          <span class="hotspot__index">05</span><span class="hotspot__label">Rol de Eco</span><span class="hotspot__pulse"></span>
+        </button>
+
+        <div class="center-table"><span>APRENDIZAJE</span><small>propósito compartido</small></div>
+      </div>
+
+      <aside class="detail" id="detail" role="dialog" aria-modal="true" aria-live="polite" aria-label="Detalle del elemento" hidden>
+        <button class="detail__close" id="detail-close" aria-label="Cerrar detalle">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+        <div id="detail-content"></div>
+      </aside>
+    </section>
+
+    <section class="connections" aria-labelledby="connections-title">
+      <div class="connections__title">
+        <h2 id="connections-title">Una decisión nunca<br>actúa sola.</h2>
+        <p id="connection-copy">Explora dos o más elementos para ver cómo se potencian entre sí.</p>
+      </div>
+      <div class="connection-board" id="connection-board" aria-live="polite">
+        <div class="connection-empty">
+          <svg aria-hidden="true" viewBox="0 0 80 80"><circle cx="26" cy="40" r="12"/><circle cx="54" cy="40" r="12"/><path d="M38 40h4"/></svg>
+          <p>Las conexiones aparecerán aquí durante tu recorrido.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" id="closing" aria-labelledby="closing-title">
+      <div class="closing__locked" id="closing-locked">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>
+        <p>Explora los cinco elementos para abrir la síntesis.</p>
+      </div>
+      <div class="closing__content" id="closing-content" hidden>
+        <h2 id="closing-title">Gestionar es hacer<br>que el aprendizaje sea posible.</h2>
+        <p>Antes de continuar, detente un momento. No necesitas escribir aquí: lleva estas dos preguntas a tu Bitácora de Metacognición Digital.</p>
+        <div class="thinking-routine">
+          <button class="thought" data-thought="before" aria-expanded="false">
+            <span>Antes pensaba…</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="thought__prompt" id="before-prompt" hidden>Antes de explorar estos elementos, pensaba que gestionar el aula significaba…</div>
+          <button class="thought" data-thought="after" aria-expanded="false">
+            <span>Ahora sé…</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="thought__prompt" id="after-prompt" hidden>Ahora sé que gestionar el aula orientada al aprendizaje implica…</div>
+        </div>
+        <p class="closing__note">Tu próxima clase ya es una oportunidad para rediseñar una condición.</p>
+        <button class="secondary-button" id="restart-button">Volver a recorrer el aula</button>
+      </div>
+    </section>
+    <footer><img src="docs/exclombia-blanco.png" alt="Enseña por Colombia"><p>El aprendizaje sucede cuando las condiciones lo hacen posible.</p></footer>
+  </main>
+
+  <template id="detail-template">
+    <div class="detail__marker"></div>
+    <p class="detail__count"></p>
+    <h3 class="detail__title"></h3>
+    <p class="detail__subtitle"></p>
+    <p class="detail__lead"></p>
+    <div class="detail__ideas"></div>
+    <div class="decision">
+      <p class="decision__label">Decisión en escena</p>
+      <p class="decision__question"></p>
+      <div class="decision__options"></div>
+      <div class="decision__feedback" hidden></div>
+    </div>
+    <blockquote class="reflection"><span>Para pensar</span><p></p></blockquote>
+    <button class="detail__next">Explorar otro elemento <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>
