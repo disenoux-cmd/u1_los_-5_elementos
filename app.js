@@ -15,7 +15,7 @@ const elements = {
     index: "Elemento 2 de 5", title: "Tiempo", subtitle: "El recurso más valioso y finito", accent: "#f2b134",
     lead: "Cada minuto del aula es una oportunidad que no vuelve. Gestionarlo es proteger el tiempo dedicado a pensar, crear e indagar.",
     ideas: [
-      ["Maximiza el aprendizaje", "La mayor parte de la jornada debe dedicarse al aprendizaje activo, la indagación y la metacognición."],
+      ["Maximiza el aprendizaje", "La mayor parte de la jornada debe dedicarse al aprendizaje activo, la indagación y la reflexión sobre lo aprendido."],
       ["Reduce la fricción", "Rutinas de inicio, desarrollo y cierre, junto con instrucciones ECOS claras y secuenciales, convierten transiciones de minutos en segundos."]
     ],
     question: "Una transición se repite cada día y toma demasiado. ¿Qué acción cuida mejor el tiempo?",

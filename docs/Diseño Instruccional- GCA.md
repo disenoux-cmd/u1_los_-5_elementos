@@ -31,7 +31,7 @@
 - Interactivo Genially: Instrucciones ECOS: Específicas, Concretas, Observables y Secuenciales.  
 - Interactivo Genially: Acuerdos de Convivencia: Creación participativa de pactos de aula redactados en positivo.  
 - Interactivo Genially: Uso del Tablero: Jerarquización de información, uso del color y contraste para facilitar la claridad.  
-- Video: Rutinas de Clase: Estructuras para el inicio (saludos), desarrollo (tiempo de aprendizaje efectivo) y cierre (metacognición).
+- Video: Rutinas de Clase: Estructuras para el inicio (saludos), desarrollo (tiempo de aprendizaje efectivo) y cierre (reflexión sobre lo aprendido).
 
 #### 
 
@@ -55,7 +55,7 @@
 - Video: Resolución de Conflictos: El semáforo del conflicto, mediación escolar y diálogo restaurativo.  
 - Video: Actos Reparadores: Reparaciones materiales, simbólicas, comunitarias y pedagógicas.  
 - Interactivo Genially: Evaluación y Retroalimentación: Uso de Rúbricas, Listas de Cotejo y estrategias como "Escribe, Comenta y ¡Avanza\!".  
-- Interactivo Genially: Metacognición: Herramientas como "Pensando en mi pensamiento" y el "Espejo del Aprendiz".  
+- Interactivo Genially: Reflexión y aplicación: Herramientas para reconocer lo aprendido y llevarlo a la práctica en el aula.
 - Interactivo Genially: Posibilidades de disposición del ambiente para asegurar las interacciones y la colaboración por grupos.
 
 ### **Metodología de Diseño Autodirigido (Moodle)**
@@ -63,7 +63,7 @@
 Para asegurar que el curso sea autónomo, se proponen los siguientes componentes:
 
 1. Micro-aprendizaje con Videos tipo EDpuzzle: Lecciones de 2 a 3 minutos con preguntas insertadas para mantener la atención sostenida.  
-2. Bitácora de Metacognición Digital: Recursos Educativos Digitales (RED) orientados a estructurar espacios de reflexión profunda para el Eco, para potenciar este ejercicio, se adopta como referente el enfoque de Pensamiento Visible (Visible Thinking) del Project Zero de la Universidad de Harvard, implementando de manera sistemática rutinas de pensamiento como "Veo, pienso, me pregunto", esta estructura guiará al docente en formación a través de un proceso autónomo de observación atenta, interpretación basada en evidencias y formulación de preguntas reflexivas, estimulando el aprendizaje activo, la conexión con saberes previos y la autorregulación pedagógica en su rol de docente-aprendiz.  
+2. Reflexión y aplicación en el aula: Los Recursos Educativos Digitales (RED) invitan al Eco a reconocer lo aprendido, relacionarlo con su experiencia y elegir acciones concretas para ponerlo en práctica en sus clases.
 3. Repositorio de Estrategias: Banco de recursos descargables que incluye plantillas de documentos, fichas de roles y guías de mediación.  
 4. Simuladores de Casos: Ejercicios de "Puesta en escena" virtual donde el docente debe elegir la mejor instrucción ECOS o la respuesta restaurativa ante un conflicto simulado.  
 5. Rincón de los Retos: Actividades de profundización opcionales para los Ecos que deseen avanzar más rápido o tengan experiencia previa.
@@ -75,6 +75,6 @@ La evaluación será formativa, el producto final consistirá en una Mini-Planea
 * Un objetivo SMART.  
 * Al menos una rutina de inicio o cierre.  
 * Un conjunto de instrucciones ECOS para una actividad.  
-* Una declaración de principios sobre cómo el Eco vivirá su primer año de liderazgo en el aula, en la cual se le otorgará una relevancia crítica a la maximización del tiempo de aprendizaje efectivo, en este manifiesto, el Eco debe plasmar compromisos explícitos para cuidar y optimizar el tiempo, entendiendo que es un recurso valioso y no recuperable en el aula, el documento debe detallar cómo el docente estructurará sus clases para asegurar que la mayor parte del tiempo se dedique al aprendizaje activo, la indagación y la metacognición de los estudiantes, reduciendo al mínimo la fricción operativa, las transiciones y las conductas disruptivas mediante la implementación rigurosa de rutinas de clase (inicio, desarrollo, cierre) e instrucciones claras (ECOS).
+* Una declaración de principios sobre cómo el Eco vivirá su primer año de liderazgo en el aula, en la cual se le otorgará una relevancia crítica a la maximización del tiempo de aprendizaje efectivo, en este manifiesto, el Eco debe plasmar compromisos explícitos para cuidar y optimizar el tiempo, entendiendo que es un recurso valioso y no recuperable en el aula, el documento debe detallar cómo el docente estructurará sus clases para asegurar que la mayor parte del tiempo se dedique al aprendizaje activo, la indagación, la reflexión y la aplicación de lo aprendido por parte de los estudiantes, reduciendo al mínimo la fricción operativa, las transiciones y las conductas disruptivas mediante la implementación rigurosa de rutinas de clase (inicio, desarrollo, cierre) e instrucciones claras (ECOS).
 
 Asistente Virtual: Es opcional y queda a consideración de ustedes su implementación para la revisión de lo que carguen los Ecos, se puede cambiar la dinámica de evaluación.

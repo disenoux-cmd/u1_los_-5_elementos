@@ -72,7 +72,7 @@ El recurso se diseñará visualmente como un **aula de clase interactiva o un pa
 
 * **Mensaje Clave:** El tiempo es el único recurso que no se puede recuperar, multiplicar ni dividir \[98\]. Cada minuto que pasa en un aula es una oportunidad única que no volverá; por eso, su uso debe ser valioso y estratégico \[98\].  
 * **Foco en el Aprendizaje Efectivo:**  
-  * **Maximización del Tiempo:** El objetivo crítico de la gestión es asegurar que la mayor parte de la jornada escolar se dedique al aprendizaje activo, la indagación y la metacognición \[27\].  
+  * **Maximización del Tiempo:** El objetivo crítico de la gestión es asegurar que la mayor parte de la jornada escolar se dedique al aprendizaje activo, la indagación y la reflexión sobre lo aprendido \[27\].
   * **Reducción de la Fricción Operativa:** Debemos reducir al mínimo el tiempo destinado a transiciones, instrucciones confusas y aspectos administrativos \[27\]. Menos tiempo en temas operativos significa más minutos para que los estudiantes piensen y creen \[27\].  
   * **Herramientas Clave:** Establece rutinas estructuradas (de inicio, desarrollo y cierre) e instrucciones claras y secuenciales (ECOS) para que las transiciones de la clase duren segundos y no minutos valiosos \[27, 214\].  
 * **Pregunta de Reflexión para el Eco:** *Si sumaras los minutos que dedicas hoy a dar instrucciones repetitivas o a organizar las filas, ¿cuánto tiempo efectivo de aprendizaje estás perdiendo en tu clase de hoy?* \[27, 327\]
@@ -109,12 +109,12 @@ El recurso se diseñará visualmente como un **aula de clase interactiva o un pa
 
 ---
 
-### Sección de Cierre y Metacognición (Visible Thinking)
+### Sección de Cierre, Reflexión y Aplicación
 
-Al finalizar la exploración de los 5 elementos, el interactivo presentará una pantalla de cierre basada en el enfoque de **Pensamiento Visible del Project Zero de la Universidad de Harvard** \[26\].
+Al finalizar la exploración de los 5 elementos, el interactivo presentará una pantalla de cierre que invita a reconocer cómo cambió la comprensión de la gestión del aula y a proyectar lo aprendido en la práctica pedagógica.
 
 * **Actividad:** *"Antes pensaba... Ahora sé"* \[222\].  
-* **Instrucciones:** Se invita a la o el Eco a abrir su Bitácora de Metacognición Digital y responder brevemente a estas dos pautas:  
+* **Instrucciones:** Se invita a la o el Eco a reflexionar sobre estas dos pautas y elegir una acción concreta para aplicar en su próxima clase:
   1. *Antes de explorar estos elementos, pensaba que gestionar el aula significaba...* \[222\]  
   2. *Ahora sé que gestionar el aula orientada al aprendizaje implica...* \[222\]
 
@@ -124,4 +124,3 @@ Al finalizar la exploración de los 5 elementos, el interactivo presentará una 
 
 2. **Interactividad:** Configurar las ventanas emergentes (Pop-ups) de Genially en modo "Etiqueta" para lecturas rápidas al pasar el mouse, y "Ventana" para las explicaciones detalladas y las preguntas de reflexión.  
 3. **Accesibilidad:** Asegurar el uso de imágenes contrastantes y lenguaje incluyente (los y las estudiantes, las y los docentes, las y los Ecos) en todo el recurso para que la navegación sea clara para todos los perfiles de usuarios \[49\].
-
